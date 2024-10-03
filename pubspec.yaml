@@ -36,7 +36,7 @@ dependencies:
   flutter_speed_dial: ^6.1.0+1 # Speed dial
   pull_to_refresh: ^2.0.0 # Top and bottom refresh gestures
   photo_view: ^0.14.0 # Zoom on fullscreen photos
-  extended_text: ^13.0.0 # Text overflow on left side
+  extended_text: ^14.1.0 # Text overflow on left side
   flutter_easyloading: ^3.0.5 # Show loading dialog
 
   # Storage
