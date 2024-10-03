@@ -27,7 +27,8 @@ Future<void> initLocalNotifications() async {
 Future<void> onSelectNotification(NotificationResponse response) async {
   debugPrint("Notification payload: ${response.payload}");
   if (response.payload == null) return;
-  OpenResult result = await OpenFilex.open(response.payload);
+  final payload = response.payload!;
+  OpenResult result = await OpenFilex.open(payload);
   debugPrint(result.message);
 }
 
